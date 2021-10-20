@@ -1,5 +1,5 @@
 {
-  "name": "@corevo/docker-compose-testkit",
+  "name": "@payzen/docker-compose-testkit",
   "version": "1.0.0",
   "main": "build/docker-compose-testkit.js",
   "types": "build/docker-compose-testkit.d.ts",
