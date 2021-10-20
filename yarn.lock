@@ -439,53 +439,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@corevo/docker-compose-testkit@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@corevo/docker-compose-testkit@workspace:."
-  dependencies:
-    "@corevo/docker-compose-tool": ^1.4.3
-    "@jest/globals": ^27.2.5
-    "@types/jest": ^27.0.2
-    "@types/node": ^16.10.3
-    "@types/node-fetch": 2.5.12
-    "@typescript-eslint/eslint-plugin": ^4.33.0
-    "@typescript-eslint/parser": ^4.33.0
-    eslint: ^7.32.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-jest: ^24.5.2
-    eslint-plugin-jsx-a11y: ^6.4.1
-    eslint-plugin-no-only-tests: ^2.6.0
-    eslint-plugin-node: ^11.1.0
-    eslint-plugin-prettier: ^4.0.0
-    eslint-plugin-react: ^7.26.1
-    eslint-plugin-react-hooks: ^4.2.0
-    eslint-plugin-testing-library: ^4.12.4
-    execa: ^5.1.1
-    jest: ^27.2.5
-    node-fetch: ^2.6.5
-    p-retry: ^4.6.1
-    prettier: ^2.4.1
-    ts-jest: ^27.0.5
-    typescript: ^4.4.3
-  peerDependencies:
-    "@corevo/docker-compose-tool": ^1.4.3
-  languageName: unknown
-  linkType: soft
-
-"@corevo/docker-compose-tool@npm:^1.4.3":
-  version: 1.4.3
-  resolution: "@corevo/docker-compose-tool@npm:1.4.3"
-  dependencies:
-    chalk: ^3.0.0
-    chance: ^1.1.4
-    child-process-promise: ^2.2.1
-    cli-spinner: ^0.2.10
-    js-yaml: ^3.13.1
-    node-fetch: ^2.6.0
-  checksum: 13c432420c0fce2fc99354ccce29ca2e54547d5e10c588aeedff1f9bb39739cfcff20827a3f1fffbb2f1be6c82204c6b260c0dce321b943ae5a50fe2030ad635
-  languageName: node
-  linkType: hard
-
 "@eslint/eslintrc@npm:^0.4.3":
   version: 0.4.3
   resolution: "@eslint/eslintrc@npm:0.4.3"
@@ -793,6 +746,53 @@ __metadata:
     mkdirp: ^1.0.4
     rimraf: ^3.0.2
   checksum: c96381d4a37448ea280951e46233f7e541058cf57a57d4094dd4bdcaae43fa5872b5f2eb6bfb004591a68e29c5877abe3cdc210cb3588cbf20ab2877f31a7de7
+  languageName: node
+  linkType: hard
+
+"@payzen/docker-compose-testkit@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@payzen/docker-compose-testkit@workspace:."
+  dependencies:
+    "@jest/globals": ^27.2.5
+    "@payzen/docker-compose-tool": ^1.4.3
+    "@types/jest": ^27.0.2
+    "@types/node": ^16.10.3
+    "@types/node-fetch": 2.5.12
+    "@typescript-eslint/eslint-plugin": ^4.33.0
+    "@typescript-eslint/parser": ^4.33.0
+    eslint: ^7.32.0
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-jest: ^24.5.2
+    eslint-plugin-jsx-a11y: ^6.4.1
+    eslint-plugin-no-only-tests: ^2.6.0
+    eslint-plugin-node: ^11.1.0
+    eslint-plugin-prettier: ^4.0.0
+    eslint-plugin-react: ^7.26.1
+    eslint-plugin-react-hooks: ^4.2.0
+    eslint-plugin-testing-library: ^4.12.4
+    execa: ^5.1.1
+    jest: ^27.2.5
+    node-fetch: ^2.6.5
+    p-retry: ^4.6.1
+    prettier: ^2.4.1
+    ts-jest: ^27.0.5
+    typescript: ^4.4.3
+  peerDependencies:
+    "@payzen/docker-compose-tool": ^1.4.3
+  languageName: unknown
+  linkType: soft
+
+"@payzen/docker-compose-tool@npm:^1.4.3":
+  version: 1.4.3
+  resolution: "@payzen/docker-compose-tool@npm:1.4.3"
+  dependencies:
+    chalk: ^3.0.0
+    chance: ^1.1.4
+    child-process-promise: ^2.2.1
+    cli-spinner: ^0.2.10
+    js-yaml: ^3.13.1
+    node-fetch: ^2.6.0
+  checksum: 54a34a195d96fbfccd92dd0b7dc7321d953c018fbc53825b06a365da87e33b6f39b498a29fd63acbce6658ceb071e0ea920f9fd53bc6d3ef27962cd9d742caa7
   languageName: node
   linkType: hard
 

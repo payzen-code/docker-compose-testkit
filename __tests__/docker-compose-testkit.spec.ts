@@ -2,7 +2,7 @@ import * as path from 'path'
 import {jest, describe, it, expect, beforeAll, afterAll} from '@jest/globals'
 // eslint-disable-next-line
 // @ts-ignore
-import {dockerComposeTool} from '@corevo/docker-compose-tool'
+import {dockerComposeTool} from '@payzen/docker-compose-tool'
 
 import {getAddressForService, getInternalIpForService} from '../src/docker-compose-testkit'
 

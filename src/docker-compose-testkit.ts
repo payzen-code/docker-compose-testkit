@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 import execa from 'execa'
 // eslint-disable-next-line
 // @ts-ignore
-import {getAddressForService as dctGetAddressForService} from '@corevo/docker-compose-tool'
+import {getAddressForService as dctGetAddressForService} from '@payzen/docker-compose-tool'
 
 const serviceAddressCache = new Map()
 
